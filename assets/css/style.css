@@ -40,6 +40,10 @@ header nav ul{
 
 header nav ul li{
   display: inline-block;
+}
+
+header nav ul li a{
+  display: inline-block;
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -48,6 +52,15 @@ header nav ul li{
   background-color: white;
   border-radius: 50%;
   margin: 0 13px;
+}
+
+header nav ul li a:hover{
+  background-color: darkgray;
+  box-shadow: 3px  3px  7px black;
+}
+
+header nav ul li a:active{
+  margin-top: 5px;
 }
 
 .box{
