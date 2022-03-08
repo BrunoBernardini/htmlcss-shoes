@@ -11,3 +11,28 @@
   display: table;
   clear: both;
 }
+
+body{
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* HEADER/NAVBAR */
+
+header{
+  position: fixed;
+  width: 100%;
+  padding-top: 50px;
+}
+
+header nav ul{
+  list-style: none;
+  text-align: right;
+}
+
+header nav ul li{
+  display: inline-block;
+}
