@@ -36,3 +36,20 @@ header nav ul{
 header nav ul li{
   display: inline-block;
 }
+
+.box{
+  width: 100%; /* NON vw perchè se no compare la scrollbar */
+  height: 100vh;
+}
+
+#red{
+  background-color: red;
+}
+
+#green{
+  background-color: #008000;
+}
+
+#yellow{
+  background-color: yellow;
+}
